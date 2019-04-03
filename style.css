@@ -17,8 +17,13 @@ header {
    padding: 20px 40px;
 }
 
-main {
+main.home {
     padding: 0px 15px;
+}
+
+main {
+  padding: 0px 40px;
+  text-align: center;
 }
 
 /*~~~ HEADER ~~~*/
@@ -92,4 +97,22 @@ nav a:hover {
 .project-block:hover .block-label {
   opacity: 1;
   color: #fff;
+}
+
+/*~~~ CONTENT ~~~*/
+
+h1 {
+  margin-bottom: 20px;
+}
+
+main img {
+  width: 100%;
+}
+
+.col-sm-4 {
+  padding: 15px;
+}
+
+video {
+  width: 100%;
 }
