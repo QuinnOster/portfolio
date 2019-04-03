@@ -68,7 +68,7 @@ nav a:hover {
 /*~~~ BLOCKS ~~~*/
 
 .project-block {
-  padding:0;
+  padding:0 !important;
 }
 
 .project-block img {
@@ -115,4 +115,17 @@ main img {
 
 video {
   width: 100%;
+}
+
+.about p {
+  text-align: left;
+  font-size: 1.2em;
+}
+
+a {
+  color: #f8bbd0;
+}
+
+a:hover {
+  color: #f8bbd0;
 }
